@@ -54,6 +54,9 @@ group :development, :test do
 end
 
 group :development do
+  # Annotates Rails/ActiveRecord Models, routes, fixtures, and others based on the database schema.
+  gem 'annotate'
+
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem "web-console"
 
