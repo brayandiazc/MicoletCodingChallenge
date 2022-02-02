@@ -57,6 +57,12 @@ group :development do
   # Annotates Rails/ActiveRecord Models, routes, fixtures, and others based on the database schema.
   gem 'annotate'
 
+  # Provides a better error page for Rails and other Rack apps. Includes source code inspection.
+  gem 'better_errors'
+
+  # Retrieve the binding of a method's caller. Can also retrieve bindings even further up the stack.
+  gem 'binding_of_caller'
+
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem "web-console"
 
