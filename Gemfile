@@ -63,6 +63,12 @@ group :development do
   # Retrieve the binding of a method's caller. Can also retrieve bindings even further up the stack.
   gem 'binding_of_caller'
 
+  # Guard is a command line tool to easily handle events on file system modifications.
+  gem 'guard'
+
+  # Guard::LiveReload automatically reloads your browser when 'view' files are modified.
+  gem 'guard-livereload', '~> 2.5', require: false
+
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem "web-console"
 
